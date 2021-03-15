@@ -1,0 +1,67 @@
+body{background-color: #293241;margin:0px 150px 0px 150px;}
+.header {border: 2px solid orange;margin-top: 10px;}
+.article{border: 2px solid orange;margin-top: 20px;}
+.imgcontener{border: 2px solid orange; width:300px; height: 300px; margin:10px 0px 20px 20px;}
+.icon{border-radius: 50%;display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    }
+    nav{ padding-left: 100px;padding-bottom: 270px;}
+    .button {
+        background-color: #f48c06;
+        border-radius:12px;
+        border:1px solid rgb(219, 165, 64);
+        display:inline-block;
+        
+        color:#ffffff;
+        font-size:20px;
+        font-weight:bold;
+        padding:10px 45px;
+        text-decoration:none;
+    }
+    .button:hover {
+        background:linear-gradient(to bottom, #f5b96b 5%, #f5b96b 100%);
+        background-color:#408c99;
+    }
+    .button:active {
+        position:relative;
+        top:1px;
+    }
+    .section{margin-bottom: 20px;}
+    samp{ font-weight: bold;font-family: Georgia, 'Times New Roman', Times, serif ; font-size: 16px;}
+    p{margin: 0px; padding-left: 15px; font-weight: bold; color: white; }
+    h1{color: #f38c06; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding-left: 15px;}
+      h3{margin: 0px;
+        color: #f38c06; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        padding-left: 15px; }
+    .soccerText{position: absolute;
+        top: 460px;
+        width: 1150px; height: 200px;
+        margin: 0px 30px 0px 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        color: rgb(43, 38, 38);
+        }
+        .MusicText{
+            position: absolute;
+            top: 780px;
+        width: 1150px; height: 200px;
+        margin: 0px 30px 0px 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        color: rgb(43, 38, 38);
+        }
+        .moviesText{position: absolute;
+            top: 1110px;
+        width: 1150px; height: 200px;
+        margin: 0px 30px 0px 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        color: rgb(43, 38, 38);}
+    .imgsection{width: 1150px; height: 300px;
+    margin: 0px 30px 0px 30px;}
+    #footer{border: 2px solid orange;margin-top: 20px; background-color: #675a5e; padding-bottom: 60px; font-weight: bold ; font-size: 18px;}
+    
+
+      

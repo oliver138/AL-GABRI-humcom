@@ -1,0 +1,24 @@
+
+*{
+
+background-color: brown;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+;
+
+
+}
+
+body{
+background-color: beige;
+color: blue;
+
+font-size: 1em;
+padding: 20px;
+height: max-content;
+}
+div{
+
+width: 1024px;
+border: 1pt grey solid;
+
+}

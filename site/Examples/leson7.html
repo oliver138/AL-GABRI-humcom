@@ -7,6 +7,60 @@
     <title>Document</title>
 </head>
 <body>
-   
+   <form action="">
+       <table align="center" width="80%">
+         <tr>
+          <td><label for="fname">frist name </label></td>
+          <td> <input type="text" id="fname" size="50"></td>
+
+         </tr>
+         <tr>
+            <td><label for="phone">phone number </label></td>
+            <td> <input type="tel" id="phone" size="50" required placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></td>
+           </tr>
+           <tr>
+            <td><label for="mobile">mobile number </label></td>
+            <td> <input type="tel" id="mobile" size="50" required placeholder="+ 4xx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></td>
+           </tr>
+         <tr>
+            <td><label for="pwd">password </label></td>
+            <td> <input type="password" id="pwd" size="25" maxlength="15" minlength="8"></td>
+         </tr>
+         <tr>
+            <td><label for="bday">birth day </label></td>
+            <td> <input type="date" id="bday"  min="2000-01-01" max="2020-01-01"></td>
+         </tr>
+         <tr>
+            <td><label for="gender">gender </label></td>
+            <td><select  name="gender" id="gender">
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+            </select> </td>
+         </tr>
+         <tr>
+            <td><label for="course">course </label></td>
+            <td> <input type="radio" id="course"  name="course" value="BSIT" required><Label>BSIT</Label>
+                <input type="radio" id="course"  name="course" value="BSCS"><Label>BSCS</Label>
+                <input type="radio" id="course"  name="course" value="BSCep"><Label>BSCep</Label>
+            </td>
+         </tr>
+         <tr>
+             <td><label for="hob">Hobbies </label></td>
+            <td> <input type="checkbox" id="hob"  name="hob1" value="Music" required><Label>Music</Label>
+                <input type="checkbox" id="hob"  name="hob2" value="Sports" required><Label>Sports</Label>
+                <input type="checkbox" id="hob"  name="hob3" value="Gamse"><Label>Gamse</Label>
+            </td>
+             
+         </tr>
+         <tr>
+             <td colspan="2">
+                <input type="submit" id="hob"  name="hob3" value="submit">
+             </td>
+         </tr>
+
+
+
+       </table>
+   </form>
 </body>
 </html>
