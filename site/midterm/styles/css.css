@@ -1,0 +1,31 @@
+body{background-color: #AAD6A0;}
+.topNav{
+    text-align: center;
+}
+h1{text-align: center; font-family:cursive;}
+h3{font-family:cursive;}
+span{font-weight: bold;}
+.button {
+    background-color: #74BDCB;
+    border-radius:12px;
+    border:1px solid #EFE7BC;
+    display:inline-block;
+    
+    color:black;
+    font-size:20px;
+    font-weight:bold;
+    padding:10px 45px;
+    text-decoration:none;
+}
+.button:hover {
+    background:linear-gradient(to bottom, #E7F2F8 5%, #E7F2F8 100%);
+    background-color:#408c99;
+}
+.button:active {
+    position:relative;
+    top:1px;
+}
+#references{border: 2px solid #E7F2F8;
+    margin-top: 20px; background-color:#D2E5D0;
+      padding-left: 20px; font-weight: bold ; font-size: 16px;
+    }
