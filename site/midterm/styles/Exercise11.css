@@ -1,0 +1,67 @@
+body{margin: 0 40px 0 40px;
+    background-color: #a9a9a9;
+}
+h2{text-align: center;margin-top: 10px;}
+.header{
+    background-color: #d7d7d7;
+    margin-top: 20px;
+    border: 2px solid black;
+    width:100%;
+    height: 200px;
+}
+.nav{
+    background-color: cornsilk;
+    margin-left: 60px;
+    border: 2px solid black;
+    width:90%;
+    height: 80px ;
+}
+.sectionOne{
+    background-color: #d7d7d7;
+    border: 2px solid black;
+    width:300px;
+    height:1100px ;
+}
+.sectionTwo{
+    margin-left: 30px;
+    background-color: #d7d7d7;
+    border: 2px solid black;
+    width:1100px;
+    height:1100px ;}
+table{width: 100%; margin-top: 20px;
+}
+.sectionHeaderOne{background-color:  cornsilk;
+     margin-left: 30px;
+    border: 2px solid black;
+    width:250px;
+    height:50px ;}
+    .sectionNavOne{background-color:  cornsilk;
+         margin-top: 20px;
+        margin-left: 30px;
+        border: 2px solid black;
+        width:250px;
+        height:810px;}
+        .sectionFooterOne{background-color:  cornsilk;
+            margin-top: 20px;
+            margin-left: 30px;
+            border: 2px solid black;
+            width:250px;
+            height:50px ;}
+            .sectionHeaderTwo{ background-color:  cornsilk;
+                margin-left: 50px;
+                border: 2px solid black;width: 1000px;
+            height: 50px;}
+            .articleOne{margin-top: 30px; margin-left: 50px; border: 2px solid black;width: 1000px;background-color:  cornsilk;}
+            .articaleHeader{ border: 2px solid black;width: 950px;margin-left: 25px; margin-top: 20px;background-color: whitesmoke;}
+            .articaleOneP{ border: 2px solid black;width: 950px;margin-left: 25px; margin-top: 20px;background-color: whitesmoke;}
+            .articaleFooter{border: 2px solid black;width: 950px;margin-left: 25px; margin:20px 0 20px 25px ;background-color: whitesmoke;}
+            .articaleTwo{margin-top: 30px; margin-left: 50px; border: 2px solid black;width: 1000px;background-color:  cornsilk;}
+            .articaleTwoP{border: 2px solid black;width: 500px;height: 200px; margin-left: 25px; margin:20px 0 20px 25px ;background-color: whitesmoke;}
+            .articaleTwoAsaide{border: 2px solid black;width: 400px;height: 200px; margin-left: 25px; margin:20px 0 20px 25px ;background-color: whitesmoke;}
+            .sectionFooterTwo{margin-top: 30px;
+                margin-bottom: 20px;
+                background-color: #f3f4ed;
+                
+                border: 2px solid black;
+                width:100%;
+               }
