@@ -1,5 +1,5 @@
 body{background-color: cadetblue;}
-@media only screen and (min-width: 1025px) {
+@media only screen and ( min-width: 1260px) {
    .headerSection{width: 100%;height: 170px; background-color: lightskyblue; border: 2px solid black; }
    .headerTable{width: 100%;border-collapse: separate;
     border-spacing: 20px 0;}
@@ -24,10 +24,32 @@ body{background-color: cadetblue;}
    .sidebar2{width: 95%; height: 220px; border: 2px solid black;background-color: lightyellow ;margin-left: 5px; text-align: center;padding-top:200px ;}
    .footer{width: 99%;height: 60px; background-color:lightskyblue;  border: 2px solid black; position: absolute; bottom: -270px; }
    .space{height: 150px;}
-
-   
-   
-  
-   
-
 } 
+@media only screen and (max-width: 1260px) {
+    .headerSection{width: 100%;height: 170px; background-color: lightslategrey; border: 2px solid black; }
+   .headerTable{width: 100%;border-collapse: separate;
+    border-spacing: 20px 0;}
+   .col1{width: 20%;height: 70px; border: 2px solid black;  }
+   .col2{width: 50%; border: 2px solid black;}
+   .col3{width: 20%; border: 2px solid black;}
+   .col{background-color: lemonchiffon;padding: 10px 0;}
+   .HeroSection{width: 75%;height: 180px; background-color: lightslategray; border: 2px solid black; margin-top: 30px;}
+   .heroTable{width: 100%;border-collapse: separate;
+    border-spacing: 20px 0; }
+   .col4{width: 500px;height: 80px; border: 2px solid black;padding-left: 30px;
+    padding-right: 30px; }
+   .col5{width: 200px; border: 2px solid black;}
+   .Ad{width: 20%;height:180px ; border: 2px solid black;background-color: lightsalmon; position: absolute;top: 210px;left: 950px;}
+   .bodySection{width: 75%;height: 510px; background-color: lightslategray; border: 2px solid black; margin-top: 30px;}
+   .bodyTable{width: 100%;border-collapse: separate;
+    border-spacing: 20px 0; }
+   .col6{width: 500px;height: 400px; border: 2px solid black;padding-left: 30px;
+    padding-right: 30px; }
+   .col7{width: 200px; border: 2px solid black;}
+   .sidebar{width: 20%;height:510px ; border: 2px solid black;background-color: lightslategray; position: absolute;top: 425px;left: 950px;}
+   .sidebar2{width: 95%; height: 220px; border: 2px solid black;background-color: lightyellow ;margin-left: 5px; text-align: center;padding-top:200px ;}
+   .footer{width: 95%;height: 60px; background-color:lightslategray;  border: 2px solid black; position: absolute; bottom: -300px; }
+   .space{height: 150px;}
+}
+@media only screen and (min-width: 720px) {}
+
