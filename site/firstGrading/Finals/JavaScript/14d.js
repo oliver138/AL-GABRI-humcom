@@ -1,0 +1,1 @@
+alert("AL-GABRI, AHMED HUSSEIN BSCS"+ "\n"+ "BSCS (Computer Science)"+ "\n"+"1st year"+"\n"+ "HUMCOM1-IAA1"+ "\n"+"HUMAN COMPUTER INTERACTION");
