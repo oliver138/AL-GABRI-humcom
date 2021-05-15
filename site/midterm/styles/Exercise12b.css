@@ -49,24 +49,39 @@ width: 90%;
 }
 .header,.hero,.body,.sidebar,.footer{
     background-color: deepskyblue;
-}
-@media screen and (max-width:1024px) {
-
     
 }
+.header,.hero,.body,.sidebar,.ad{height: 210px;}
+@media screen and (max-width:1200px) {
+    #wrapper{
+        width: 100%;
+        }
+    .col-md-6{width: 50%;height: 400px; }
+    .col-md-12{width: 100%; }
+    .row::after{ display: inline;}
+    .hf,.hcta,.af{height: 43%;}
+    .brand,.GlobalNav,.tools{height: 29%;}
+    .ad{height: 400px;}
+    .sf{height: 85%;}
+    /* .hero,.header,.sidebar,.ad,.body{height: 300px;} */
+}
+
+@media screen and (max-width:992px) {
+    #wrapper{
+        width: 100%;
+        }
+     .col-sm-6{width: 50%; }
+     .col-sm-12{width: 100%; }
+     .tools,.GlobalNav{height: 40%;}
+     .brand,.hf,.hcta{height: 80%;}
+}
+
 @media screen and (max-width:768px) {
     #wrapper{
         width: 100%;
         }
-        .col-sm-12{
-            width: 100%;
+        .col-xs-12{
+            width: 100%;height: 80%;
         }
-    .col-sm-6{
-        width: 50%;
-    }
-    
-}
-@media screen and (max-width:600px) {
-    
     
 }
